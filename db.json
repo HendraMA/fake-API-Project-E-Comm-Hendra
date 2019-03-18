@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "hendra",
+      "password": "123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "username": "regan",
+      "password": "345"
+    },
+    {
+      "username": "jamal",
+      "password": "567",
+      "id": 3
+    }
+  ],
+  "products" : 
+  [
+      {"id":1 , "nama":"Baby Bag 1", "harga":300000 ,"category":"Baby Bag", "discount":15,"deskripsi":"Adorable Package" ,"img":"https://harga-jual.com/wp-content/uploads/2017/10/10852361_8ae3a7ce-de67-4c31-9a00-0a8c43a57558_450_450.jpg"},
+      {"id":2 , "nama":"Baby Bag 2" , "harga":270000,"category":"Baby Bag" , "discount":10,"deskripsi":"Adorable Package","img":"https://s2.bukalapak.com/img/7635963461/w-1000/TAS_BAYI_ANAK_KEREN.jpg"},
+      {"id":3 , "nama":"Baby Carrier 1" , "harga": 460000,"category":"Baby Carrier" , "discount":25,"deskripsi":"Adorable Package","img":"https://www.earthmother.ie/user/products/large/omni-360-pearl-grey-product-01_1.jpg"},
+      {"id":4 , "nama":"Baby Carrier 2" , "harga":370000,"category":"Baby Carrier" , "discount":15,"deskripsi":"Adorable Package","img":"https://angels-baby.com/wp-content/uploads/2015/08/1785.jpg"},
+      {"id":5 , "nama": "Baby Stroller 1", "harga": 2500000,"category":"Baby Stroller " , "discount":18,"deskripsi":"Adorable Package","img":"https://images-na.ssl-images-amazon.com/images/I/71liN7b7W3L._SY355_.jpg"},
+      {"id":6 , "nama":"Baby Stroller 2" , "harga": 3000000,"category": "Baby Stroller" , "discount":47,"deskripsi":"Adorable Package","img":"https://www.chiccousa.com/on/demandware.static/-/Sites-Chicco-Library/default/dwec63334d/images/Landing/strollers-landing/chicco-bravo-thumb.jpg"},
+      {"id":7 , "nama":"Baby Cologne" , "harga": 15000,"category": "Switzal" , "discount":38,"deskripsi":"Adorable Package","img":"https://ecs7.tokopedia.net/img/cache/700/product-1/2016/9/7/91692/91692_679a9f0e-85e4-4fc7-91e8-133fd3709032.jpg"},
+      {"id":8 , "nama":"Baby Bath" , "harga": 18000,"category": "Switzal" , "discount":40,"deskripsi":"Adorable Package","img":"https://www.tororo.com/pub/media/catalog/product/cache/c687aa7517cf01e65c009f6943c2b1e9/b/a/baby_bath_2_in_1_minyak_telon.jpg"}
+  ],
+
+"cart" :
+[
+  {"id": 1, "idUser":2,"namaProduk":"Baby Bag 1", "harga":300000,"qty": 3},
+  {"id": 2, "idUser":3,"namaProduk":"Baby Bag 2", "harga":270000,"qty": 3},
+  {"id": 3, "idUser":4,"namaProduk":"Baby Carrier 1", "harga":460000,"qty": 3},
+  {"id": 4, "idUser":5,"namaProduk":"Baby Carrier 2", "harga":370000,"qty": 3},
+  {"id": 5, "idUser":6,"namaProduk":"Baby Stroller 1", "harga":2500000,"qty": 3},
+  {"id":6, "idUser":7,"namaProduk":"Baby Stroller 2", "harga":3000000,"qty": 3},
+  {"id":7, "idUser":8,"namaProduk":"Baby Cologne", "harga":15000,"qty": 3},
+  {"id":8, "idUser":9,"namaProduk":"Baby Bath", "harga":18000,"qty": 3}
+
+],
+
+"history" :
+[
+  {"id" : 1, "idUser": 1, "tanggal": "10-10-2010", "item": [
+    
+    {"id": 2, "idUser": 1, "namaProduk": "Baby Bag 1", "harga": 300000,"qty": 3},
+   {"id": 4, "idUser": 1, "namaProduk": "Baby Carrier 2", "harga": 370000,"qty": 3},
+     {"id": 6, "idUser": 1, "namaProduk": "Baby Stroller 1 ", "harga": 2500000,"qty": 3},
+     {"id": 7, "idUser": 1, "namaProduk": "Baby Cologne", "harga": 15000,"qty": 3}]},
+     
+     {"id" : 1, "idUser": 1, "tanggal": "10-10-2010", "item": [
+    
+      {"id": 2, "idUser": 1, "namaProduk": "Baby Bag 2", "harga": 270000,"qty": 3},
+     {"id": 4, "idUser": 1, "namaProduk": "Baby Carrier 1", "harga": 460000,"qty": 3},
+       {"id": 6, "idUser": 1, "namaProduk": "Baby Stroller 2", "harga": 3000000,"qty": 3},
+       {"id": 7, "idUser": 1, "namaProduk": "Baby Bath", "harga": 180000,"qty": 3}]}
+
+     
+  
+]
+}
